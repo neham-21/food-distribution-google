@@ -1,0 +1,30 @@
+{
+  "name": "pulse-agent",
+  "version": "1.0.0",
+  "description": "Pulse Agent for Smart Emergency Traffic Orchestration",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "pulse-agent",
+    "ambulance",
+    "smart-traffic",
+    "socketio",
+    "emergency-response"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.16.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "geolib": "^3.3.14",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3",
+    "uuid": "^14.0.0"
+  }
+}
